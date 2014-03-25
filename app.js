@@ -1,5 +1,8 @@
 var express = require('express');
 var app = express();
+
+app.get('/', require('/routes/index));
+
 app.listen(8080);
 
-server.response("server is up");
+console.log("server is up");
